@@ -276,7 +276,7 @@ def instructions(stdscr):
     stdscr.addch("\n")
     typing("WHAT IS THE GAME OF LIFE?\n", stdscr)
     typing("The Game of Life is a simulation invented by mathematician John Conway in which very simple rules cause complex patterns to emerge.\n", stdscr)
-    typing(f"Each cell in a square grid can either be \"alive\" or \"dead\" (represented in this version by {alive} and {dead} respectively).\n", stdscr)
+    typing(f"Each cell in a square grid can either be \"alive\" or \"dead\" (represented in this version by \"{alive}\" and \"{dead}\" respectively).\n", stdscr)
     typing("In order to survive to the next generation, an alive cell must have 2 or 3 neighbouring alive cells.\n", stdscr)
     typing("Each alive cell with 4 or more neighbours will die from overpopulation.\n", stdscr)
     typing("Each alive cell with 1 or 0 neighbours will die from isolation.\n", stdscr)
